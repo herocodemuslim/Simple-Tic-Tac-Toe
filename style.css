@@ -1,0 +1,81 @@
+body {
+  font-family: 'Indie Flower', serif;
+  font-size: 10px;
+
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1 {
+  margin: 40px 0 0;
+
+  font-size: 5em;
+  text-align: center;
+  line-height: 0.4;
+}
+
+h1:after {
+  content: "";
+
+  display: block;
+  margin: 0 auto;
+  
+  width: 50%;
+  height: 7px;
+  
+  background-color: #dedede;
+  border-radius: 6px;
+}
+
+.tagline {
+  margin: 8px 0 30px;
+  
+  font-family: sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  letter-spacing: 1px;
+
+  color: #555;
+}
+
+.note {
+  font-size: 1.5em;
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* TIC TAC TOE STYLES */
+table {
+  margin: 0 auto;
+
+  border-collapse: collapse;
+}
+
+table td {
+  width: 100px;
+  height: 100px;
+
+  font-size: 3em;
+  text-align: center;
+
+  background-color: #eee;
+  color: #eee;
+  border-width: 0px;
+  border-color: #dedede;
+  border-style: solid;
+  cursor: pointer;
+}
+
+table td:hover {
+  background-color: #333;
+}
+
+.vertical {
+  border-left-width: 3px;
+  border-right-width: 3px;
+}
+
+.horizontal {
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+}
